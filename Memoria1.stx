@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to C:/Xilinx/LeccionU2/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: Memoria1.prj
 
@@ -42,18 +42,16 @@ TABLE OF CONTENTS
 Parsing VHDL file "C:\Xilinx\LeccionU2\Memoria1.vhd" into library work
 Parsing entity <Memoria1>.
 Parsing architecture <Behavioral> of entity <memoria1>.
-ERROR:HDLCompiler:806 - "C:\Xilinx\LeccionU2\Memoria1.vhd" Line 25: Syntax error near "enable".
-ERROR:HDLCompiler:806 - "C:\Xilinx\LeccionU2\Memoria1.vhd" Line 28: Syntax error near "ram".
-ERROR:HDLCompiler:620 - "C:\Xilinx\LeccionU2\Memoria1.vhd" Line 28: Near unsigned ; type conversion does not match type std_logic_vector
-ERROR:HDLCompiler:806 - "C:\Xilinx\LeccionU2\Memoria1.vhd" Line 31: Syntax error near "reset".
-ERROR:HDLCompiler:620 - "C:\Xilinx\LeccionU2\Memoria1.vhd" Line 34: Near unsigned ; type conversion does not match type std_logic_vector
-ERROR:HDLCompiler:854 - "C:\Xilinx\LeccionU2\Memoria1.vhd" Line 17: Unit <behavioral> ignored due to previous errors.
-VHDL file C:\Xilinx\LeccionU2\Memoria1.vhd ignored due to errors
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.90 secs
+ 
 --> 
 
 Total memory usage is 4494832 kilobytes
 
-Number of errors   :    6 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

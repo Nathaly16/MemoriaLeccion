@@ -22,16 +22,13 @@ process(clk)
 begin
 	if clk'event and clk = '1' then
 	if en = '1' then --
-	optional enable
 	if we = '1' then -- write
-	enable
-	ram(conv_integer(unsigned(addr))) <= di;
+	ram(conv_integer((addr))) <= di;
 	end if;
 	if rst = '1' then --
-	optional reset
 	do <= (others => '0');
 	else
-	do <= ram(conv_integer(unsigned(addr)));
+	do <= ram(conv_integer((addr)));
 end if;
 end if;
 end if;

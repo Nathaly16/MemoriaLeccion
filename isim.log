@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Xilinx\LeccionU2\TB_MEMORIA2_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/LeccionU2/TB_MEMORIA2_isim_beh.wdb 
+Running: C:\Xilinx\LeccionU2\TB_MEMORI1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/LeccionU2/TB_MEMORI1_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,10 +11,11 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+# isim force add /tb_memori1/do[15] 1 -radix bin
+# isim force add /tb_memori1/do[15] 1 -radix bin
+# isim force add /tb_memori1/do[14] 1 -radix bin
+# isim force add /tb_memori1/do[14] 1 -radix bin
+# isim force add /tb_memori1/do[14] 1 -radix bin
+# isim force add /tb_memori1/do 1 -radix bin
 # run all
-# run 1.00us
-# run 1.00us
-# restart
-# run all
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
+Stopped at time : 138001625 ns : File "C:/Xilinx/LeccionU2/TB_MEMORI1.vhd" Line 60
