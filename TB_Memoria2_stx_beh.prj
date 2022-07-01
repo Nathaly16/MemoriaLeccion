@@ -1,0 +1,2 @@
+vhdl isim_temp "Memoria2.vhd"
+vhdl isim_temp "TB_MEMORIA2.vhd"
